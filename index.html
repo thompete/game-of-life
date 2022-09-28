@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Game of life</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <canvas id="canvas"></canvas>
+    <button id="restart">Restart</button>
+    <button id="control-play-state">Pause</button>
+    <label for="control-speed">Speed:</label>
+    <input id="control-speed" type="range" name="speed" min="0" max="200" value="5">
+    <span><span id="display-speed">5</span> FPS</span>
+    <button id="random-fill">Random</button>
+    <button id="show-grid">Grid</button>
+
+    <script type="module" src="js/index.js"></script>
+</body>
+
+</html>
