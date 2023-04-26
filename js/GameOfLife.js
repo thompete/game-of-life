@@ -178,6 +178,7 @@ class GameOfLife {
             pY > rectY && pY <= rectY + rectH
     }
 
+    // FIXME: Optimize this
     _ifMouseInsideCell(fn, elseFn) {
         const { x: mouseX, y: mouseY } = this._state.mousePosition;
 
