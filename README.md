@@ -2,4 +2,4 @@
 
 Simple cellular automaton made with HTML Canvas.
 
-https://thompete.github.io/game-of-life/
+Try it here: https://thompete.github.io/game-of-life/
